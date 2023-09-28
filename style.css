@@ -1,0 +1,60 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.mx-auto {
+    margin: auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    border: 2px solid black;
+    border-radius: 13px;
+    cursor: pointer;
+    width: 7vw;
+}
+
+.row {
+    margin: 3px 0;
+    width: 87vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row input {
+    font-size: 29px;
+    margin: 0 0 13px 0;
+    padding: 11px 0px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+@media screen and (max-width:704px) {
+    .button{
+        width: 15vw;
+    }
+}
